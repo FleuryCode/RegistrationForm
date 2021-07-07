@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:padding="48dp">
+
+
+    <TextView
+        android:id="@+id/text_view_preview_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        tools:text="This will be a long text to show the text view and writing on multiple lines because it needs to be long" />
+
+    <TextView
+        android:id="@+id/text_view_preview_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textColor="#98CCD3"
+        android:textSize="14sp"
+        tools:text="This will be a long text to show the text view and writing on multiple lines because it needs to be long" />
+
+
+    <TextView
+        android:id="@+id/text_view_preview_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textAlignment="center"
+        android:textColor="#98CCD3"
+        android:textSize="14sp"
+        tools:text="This will be a long text to show the text view and writing on multiple lines because it needs to be long" />
+
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/button_submit" />
+
+
+</LinearLayout>
